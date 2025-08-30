@@ -1,0 +1,6 @@
+1. colcon build 
+2. For not building ros2 workspace after every change, 
+just run:
+    colcon build --symlink-install
+    source ~/.bashrc
+    
